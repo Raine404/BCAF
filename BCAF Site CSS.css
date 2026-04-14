@@ -1,0 +1,173 @@
+body{
+    background-color: #182836;
+    color:#fff;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:1.1%;
+    width:auto;
+    line-height: 1.6;
+}
+
+nav{
+  color:white;
+  text-decoration: none;
+}
+/*436789 greenblue, 4cbd24 green, fbe473 yellow, f6956e coral, - these were the original base colours for the site*/
+/*this section has the CSS for the navigation bar*/
+.topnav{
+    text-align: left;
+    position: fixed;
+    /*the fixed position means that no matter where the user scrolls, the bar remains fixed*/
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #0e1924;
+}
+.topnav a {
+  margin-left:1%;
+  float: left;
+  color: #ffffff;
+  text-align: left;
+  padding: 20px 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #182836;
+  color: rgb(255, 255, 255);
+}
+/*this section contains the CSS for the various bits of text */
+header{
+    padding-top:100px;
+}
+h1{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+h2{
+  color:white;
+  text-decoration: none;
+}
+.slide{
+  padding:5px;
+  overflow:auto;
+  white-space: nowrap;
+  /*this creates the slideshow effect by creating a fixed section for the images to move in */
+}
+/*this provides the css for the footer section*/
+footer{
+  background-color: #0e1924;
+  color:#ffffff;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  width: 100%;
+
+}
+
+.stall{
+  width:auto;
+  height:auto;
+  display:inline-block;
+  text-align: center;
+  background-color:#243c53;
+  border-radius: 30px;
+  padding:10px;
+  margin:10px;
+  vertical-align: top;
+}
+
+
+.text{
+  height:auto; 
+  display:inline-block;
+  background-color:#243c53;
+  border-radius: 30px;
+  padding:10px;
+  margin:10px;
+  vertical-align: top;
+}
+
+.block{
+  background-color:  #243c53;
+  border-radius:30px;
+  padding:10px;
+}
+
+.what_are_we{
+  background-color:  #243c53;
+  border-radius:30px;
+  padding:10px;
+}
+
+.what_to_expect{
+  background-color:  #243c53;
+  border-radius:30px;
+  padding:10px;
+}
+
+.date_and_time{
+  background-color:  #243c53;
+  border-radius:30px;
+  padding:10px;
+}
+
+img{
+  border-radius:30px;
+}
+
+
+.where-you-come-in{
+  background-color: #243c53;
+  border-radius:30px;
+  padding:10px;
+}
+
+.our-goals{
+  background-color: #243c53;
+  border-radius:30px;
+  padding:10px;
+}
+
+.about-us{
+  background-color: #243c53;
+  border-radius:30px;
+  padding:10px;
+}
+
+.whats-on-text{
+  width: 40%;
+  display:inline-block;
+  background-color:#243c53;
+  border-radius: 30px;
+  padding:10px;
+  margin:10px;
+}
+
+.whats-on-image{
+  display:inline-block;
+  background-color:#243c53;
+  border-radius: 30px;
+  padding:10px;
+  margin:10px;
+  align-self:right;
+}
+
+form{
+  width: 30%;
+  display:inline-block;
+  background-color:#243c53;
+  border-radius: 30px;
+  padding:10px;
+  margin:10px;
+  vertical-align: top;
+}
+
+.sign-up-info{
+  display:inline-block;
+  background-color:#243c53;
+  border-radius: 30px;
+  padding:10px;
+  margin:10px;
+}
