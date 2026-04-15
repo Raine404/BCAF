@@ -27,11 +27,11 @@
         </div>
         <form style="display: inline-block;"> <!--this section creates a form for users of the website to input data -->
                 <label for="name">First Name & Surname</label><br>
-                <input type="text" id="name" name="name"><br><br>
+                <input type="text" id="name" name="name" style="overflow:hidden" required ><br><br>
                 <label for="contact">Phone Number/ Email</label><br>
-                <input type="text" id="contact" name="contact"><br><br>
+                <input type="text" id="contact" name="contact" style="overflow:hidden" required><br><br>
                 <label for="formtype">How do you want to get involved?</label><br>
-                <select id="formtype" name="formtype">
+                <select id="formtype" name="formtype" style="overflow:hidden" required>
                     <option value="staff">General Staff</option>
                     <option value="stall">Open a Stall</option>
                     <option value="aid">Join our medical team</option>
@@ -39,10 +39,10 @@
                     <option value="helper">Helpdesk Staff</option>
                 </select><br><br>
                 <label for="resume">Credentials</label><br>
-                <input type="file" id="resume" name="resume"><br><br>
+                <input type="file" id="resume" name="resume" style="overflow:hidden" required><br><br>
                 <label for="Description">Description</label><br>
-                <textarea id="Description" name="Description"></textarea><br><br>
-                <label for="final">I confirm I am over the age of 18 <br> 
+                <textarea id="Description" name="Description" style="overflow:hidden" required></textarea><br><br>
+                <label for="final">I confirm I am over the age o f 18 <br> 
                     and have read and agreed to the <br> Privacy Policy
                     and Terms of Service</label>
                 <input type="checkbox" id="check"><br><br>
