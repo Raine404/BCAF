@@ -153,6 +153,17 @@ img{
   margin:10px;
   align-self:right;
 }
+.artists-image{
+  width:50%;
+  display:inline-block;
+  background-color:#243c53;
+  border-radius: 30px;
+  padding:10px;
+  margin:10px;
+  align-self:right;
+  overflow:auto;
+  white-space: nowrap;
+}
 /*this sets the formatting for the form on the sign up page, with background colour, borders and alignment*/
 form{
   width: 50%;
